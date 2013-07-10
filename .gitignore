@@ -1,0 +1,13 @@
+.idea/*
+application/config/environment.php
+application/config/local.php
+application/config/database.php
+/optimus.komodoproject
+/fork.komodoproject
+*.komoodo*
+/nbproject/private/
+/nbproject
+.project
+/.komodotools/
+.settings/*
+*.DS_Store

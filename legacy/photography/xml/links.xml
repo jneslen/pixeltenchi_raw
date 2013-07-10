@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<flash>
+	<links>
+		
+		<button>
+			<title>about</title>
+			<link>about.swf</link>
+			<color>0xC5D2E3</color>
+			<description>Joy Gough is an Award Winning Location Portraiture specializing in wedding, family, children, commercial, and live event photography.</description>
+			<phone>801.916.2033</phone>
+			<email>joy@joyfulmomentsphotography.com</email>
+		</button>
+		<button>
+			<title>portfolio</title>
+			<link>portfolio.swf</link>
+			<color>0xFFF2C6</color>
+		</button>
+		<button>
+			<title>services</title>
+			<link>services.swf</link>
+			<color>0xCFDDBB</color>
+			<description>please feel free to contact me in regards to an appointment I offer photography services for just about any need you may have.  I am available for consultations over the phone and by e-mail.</description>
+		</button>
+		<button>
+			<title>awards</title>
+			<link>awards.swf</link>
+			<color>0xFFDECC</color>
+			<description>Joy Gough is the winner of several awards and accolades for her work in photography.  Awards include numorous awards for her portraits and wedding images.</description>
+		</button>
+		<button>
+			<title>contact</title>
+			<link>contact.swf</link>
+			<color>0xBDD2CC</color>
+			<description>Joy Gough</description>
+			<fax>801.572.9841</fax>
+			<address>2462 Ast Vail Circle</address>
+			<city>Sandy, Utah 84093</city>
+		</button>
+		
+	</links>
+
+</flash>

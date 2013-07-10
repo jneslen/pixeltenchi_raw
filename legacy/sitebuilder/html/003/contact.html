@@ -1,0 +1,190 @@
+<HTML>
+<HEAD>
+<TITLE>template</TITLE>
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1">
+<LINK HREF="css/styles.css" REL="stylesheet" TYPE="text/css">
+</HEAD>
+<BODY BGCOLOR=#FFFFFF LEFTMARGIN=0 TOPMARGIN=0 MARGINWIDTH=0 MARGINHEIGHT=0>
+<SCRIPT LANGUAGE=JavaScript>
+<!--
+var InternetExplorer = navigator.appName.indexOf("Microsoft") != -1;
+// Handle all the the FSCommand messages in a Flash movie
+function navigation_DoFSCommand(command, args) {
+  var navigationObj = InternetExplorer ? navigation : document.navigation;
+  //
+  		if (command == 'alert'){
+		window.status=args;
+		} else {
+		window.status="";
+		}
+  //
+}
+// Hook for Internet Explorer 
+if (navigator.appName && navigator.appName.indexOf("Microsoft") != -1 && 
+	  navigator.userAgent.indexOf("Windows") != -1 && navigator.userAgent.indexOf("Windows 3.1") == -1) {
+	document.write('<SCRIPT LANGUAGE=VBScript\> \n');
+	document.write('on error resume next \n');
+	document.write('Sub navigation_FSCommand(ByVal command, ByVal args)\n');
+	document.write('  call navigation_DoFSCommand(command, args)\n');
+	document.write('end sub\n');
+	document.write('</SCRIPT\> \n');
+}
+//-->
+</SCRIPT>
+<DIV ALIGN="CENTER">
+<TABLE WIDTH=720 BORDER=0 CELLPADDING=0 CELLSPACING=0 ID="main_table">
+	<TR>
+		<TD WIDTH=270 HEIGHT=50><OBJECT CLASSID="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" CODEBASE="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0" WIDTH="270" HEIGHT="50">
+          <PARAM NAME="movie" VALUE="flash/head_logo.swf">
+          <PARAM NAME="quality" VALUE="high">
+          <EMBED SRC="flash/head_logo.swf" QUALITY="high" PLUGINSPAGE="http://www.macromedia.com/go/getflashplayer" TYPE="application/x-shockwave-flash" WIDTH="270" HEIGHT="50"></EMBED>
+		  </OBJECT>
+	  </TD>
+		<TD WIDTH=180 HEIGHT=50><IMG SRC="images/head_middle.jpg" BORDER="0" WIDTH=180 HEIGHT=50 ALT=""></TD>
+		<TD WIDTH=270 HEIGHT=50>
+			<A HREF="http://www.personal-trainers.com" TARGET="_blank"><IMG SRC="images/head_right.jpg" BORDER="0" WIDTH=270 HEIGHT=50 ALT=""></A></TD>
+	</TR>
+	<TR>
+		<TD COLSPAN=3 WIDTH=720 HEIGHT=35>
+         <OBJECT classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000"
+ codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,0,0"
+ ID="navigation" WIDTH="720" HEIGHT="35" ALIGN="">
+ <PARAM NAME=movie VALUE="flash/navigation.swf"> <PARAM NAME=quality VALUE=high> <PARAM NAME=bgcolor VALUE=#FFFFFF> <EMBED src="navigation.swf" quality=high bgcolor=#FFFFFF  WIDTH="720" HEIGHT="35" swLiveConnect=true ID="navigation" NAME="navigation" ALIGN=""
+ TYPE="application/x-shockwave-flash" PLUGINSPAGE="http://www.macromedia.com/go/getflashplayer"></EMBED>
+</OBJECT></TD>
+	</TR>
+	<TR>
+		<TD COLSPAN=3 WIDTH=720 HEIGHT=100><OBJECT CLASSID="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" CODEBASE="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0" WIDTH="720" HEIGHT="100">
+          <PARAM NAME="movie" VALUE="flash/main.swf">
+          <PARAM NAME="quality" VALUE="high">
+          <EMBED SRC="flash/main.swf" QUALITY="high" PLUGINSPAGE="http://www.macromedia.com/go/getflashplayer" TYPE="application/x-shockwave-flash" WIDTH="720" HEIGHT="100"></EMBED>
+	    </OBJECT></TD>
+	</TR>
+	<TR>
+		<TD COLSPAN=3 WIDTH=720 HEIGHT=383 ALIGN="CENTER" VALIGN="TOP">
+		
+		
+		<TABLE WIDTH="700" BORDER="0" CELLSPACING="1" CELLPADDING="1" CLASS="form_table">
+  <TR>
+    <TD CLASS="title_text">contact</TD>
+  </TR>
+  <TR>
+    <TD CLASS="horizontal_div"></TD>
+  </TR>
+  <TR>
+    <TD ALIGN="CENTER">
+	<!-- beginning of body content -->
+	
+	<TABLE WIDTH="550" BORDER="0" CELLSPACING="0" CELLPADDING="0" CLASS="form_table">
+      <TR>
+        <TD VALIGN="TOP"><TABLE WIDTH="550" BORDER="0" CELLSPACING="0" CELLPADDING="0" CLASS="form_table">
+            <TR>
+              <TD COLSPAN="2">Our Address:<BR /> 
+{ss_info_addresses.addr_street1}<BR />
+{ss_info_addresses.addr_street2}<BR />
+{ss_info_addresses.addr_city}, {ss_info_addresses. addr_state}  {ss_info_addresses. addr_zip}
+<P>&nbsp;</P>
+</TD>
+            </TR>
+            <TR>
+              <TD ALIGN="RIGHT"> Our Phone Number: </TD>
+              <TD> <em>{ss_info_phones.ph_num} </em> ext. <em>{ss_info_phones. ph_ext} </em> </TD>
+					</TR>
+            <TR>
+              <TD ALIGN="RIGHT"> Our Fax Number: </TD>
+              <TD> <em>{ss_info_phones.ph_num} </em> ext. <em>{ss_info_phones. ph_ext} </em> </TD>							
+					</TR>
+						<TR>
+              <TD ALIGN="RIGHT"> Our E-mail Address: </TD>
+              <TD> <em>{ss_info_email.email_addr} </em> </TD>							
+						</TR>
+        </TABLE></TD>
+      </TR>
+	  <TR>
+	  <TD CLASS="horizontal_div">&nbsp;</TD>
+	  </TR>
+	  <TR>
+	  <TD>
+	  <!-- begin nested table form -->
+	  
+	  <FORM ACTION="#" METHOD="post" ENCTYPE="multipart/form-data" NAME="contact">
+	  <TABLE WIDTH="300" BORDER="0" CELLSPACING="1" CELLPADDING="1">
+        <tr CLASS="form_table">
+          <td COLSPAN="2"><FONT COLOR="#006600">* indicates required fields</FONT></td>
+          </tr>
+        <tr CLASS="form_table">
+          <td align="right"><div align="right">Name:</div></td>
+          <td><input type="text" name="name" maxlength="20" size="30" CLASS="form_fields">
+              <font color="#006600">*</font></td>
+        </tr>
+        <tr CLASS="form_table">
+          <td align="right"><div align="right">E-mail:</div></td>
+          <td><input type="text" name="email" maxlength="50" size="30" CLASS="form_fields">
+              <font color="#006600">*</font></td>
+        </tr>
+        <tr CLASS="form_table">
+          <td align="right"><div align="right">Phone Number:</div></td>
+          <td><input type="text" name="phone" maxlength="12" size="30" CLASS="form_fields"></td>
+        </tr>
+        <tr CLASS="form_table">
+          <td align="right" valign="top"><div align="right">Question/Comment:</div></td>
+          <td><textarea name="comment" wrap="soft" rows="4" CLASS="form_fields" COLS="50"></textarea></td>
+        </tr>
+		<TR>
+		<TD COLSPAN="2" ALIGN="CENTER"><INPUT NAME="submit" TYPE="submit" VALUE="send" CLASS="form_fields">
+		
+		</TD></TR>
+</TABLE>
+
+	  </FORM>
+	  
+	  
+	  <!-- end nested table form -->
+	  </TD>
+	  </TR>
+    </TABLE>
+	<!-- end of body content -->
+	</TD>
+  </TR>
+</TABLE>
+
+		</TD>
+	</TR>
+	<TR>
+		<TD COLSPAN=3 WIDTH=720 HEIGHT=10 ALIGN="center">
+		<TABLE WIDTH="620" HEIGHT="10" CELLPADDING="0" CELLSPACING="0" BORDER="0">
+		<TR>
+		<TD CLASS="horizontal_div">
+		
+		</TD>
+		</TR>
+		<TR>
+		<TD ALIGN="CENTER">
+		<a href="index.html" class="color_links">home</a>&nbsp;<img src="images/vertical_dotted.gif" WIDTH="1" HEIGHT="7">&nbsp;
+		<a href="about.html" class="color_links">about</a>&nbsp;<img src="images/vertical_dotted.gif" WIDTH="1" HEIGHT="7">&nbsp;
+		<a href="location.html" class="color_links">location</a>&nbsp;<img src="images/vertical_dotted.gif" WIDTH="1" HEIGHT="7">&nbsp;
+		<a href="prices.html" class="color_links">prices</a>&nbsp;<img src="images/vertical_dotted.gif" WIDTH="1" HEIGHT="7">&nbsp;
+		<a href="products.html" class="color_links">products</a>&nbsp;<img src="images/vertical_dotted.gif" WIDTH="1" HEIGHT="7">&nbsp;
+		<a href="services.html" class="color_links">services</a>&nbsp;<img src="images/vertical_dotted.gif" WIDTH="1" HEIGHT="7">&nbsp;
+		<a href="staff.html" class="color_links">staff</a>&nbsp;<img src="images/vertical_dotted.gif" WIDTH="1" HEIGHT="7">&nbsp;
+		<a href="contact.html" class="color_links">contact us</a>
+			
+		</TD>
+		</TR>
+		<TR>
+		<TD ID="footbar">
+		</TD>
+		</TR>
+		</TABLE>
+		
+		</TD>
+	</TR>
+	<TR>
+		<TD COLSPAN=3 WIDTH=720 HEIGHT=22 ALIGN="center" CLASS="color_small"><IMG SRC="images/emblem.jpg" WIDTH="22" HEIGHT="22" BORDER="0"><BR />
+	  &copy;2004 ViperWebSytems.com</TD>
+	</TR>
+</TABLE>
+</DIV>
+
+</BODY>
+</HTML>

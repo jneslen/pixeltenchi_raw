@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<flash>
+		<portfolio>
+		<button>
+			<main>wedding</main>
+			<link>photos/wedding.swf</link>
+			<xmlfile>xml/photos/wedding.xml</xmlfile>
+		</button>
+			<button>
+				<title>brides</title>
+				<link>photos/brides.swf</link>
+				<xmlfile>xml/photos/brides.xml</xmlfile>
+			</button>
+			<button>
+				<title>bride &amp; groom</title>
+				<link>photos/groom.swf</link>
+				<xmlfile>xml/photos/groom.xml</xmlfile>
+			</button>
+			<button>
+				<title>wedding candids</title>
+				<link>photos/candids.swf</link>
+				<xmlfile>xml/photos/candids.xml</xmlfile>
+			</button>
+			<button>
+				<title>couples</title>
+				<link>photos/couples.swf</link>
+				<xmlfile>xml/photos/couples.xml</xmlfile>
+			</button>
+			
+			
+		<button>
+			<main>family</main>
+			<link>photos/family.swf</link>
+			<xmlfile>xml/photos/family.xml</xmlfile>
+		</button>
+			<button>
+				<title>families</title>
+				<link>photos/families.swf</link>
+				<xmlfile>xml/photos/families.xml</xmlfile>
+			</button>
+			<button>
+				<title>family legacy program</title>
+				<link>photos/legacy.swf</link>
+				<xmlfile>xml/photos/legacy.xml</xmlfile>
+			</button>
+			<button>
+				<title>babies</title>
+				<link>photos/babies.swf</link>
+				<xmlfile>xml/photos/babies.xml</xmlfile>
+			</button>
+			<button>
+				<title>children</title>
+				<link>photos/children.swf</link>
+				<xmlfile>xml/photos/children.xml</xmlfile>
+			</button>
+			<button>
+				<title>teens</title>
+				<link>photos/teens.swf</link>
+				<xmlfile>xml/photos/teens.xml</xmlfile>
+			</button>
+			
+			
+		<button>
+			<main>events</main>
+			<link>photos/events.swf</link>
+			<xmlfile>xml/photos/events.xml</xmlfile>
+		</button>
+			<button>
+				<title>plays</title>
+				<link>photos/plays.swf</link>
+				<xmlfile>xml/photos/plays.xml</xmlfile>
+			</button>
+			<button>
+				<title>dance</title>
+				<link>photos/dance.swf</link>
+				<xmlfile>xml/photos/dance.xml</xmlfile>
+			</button>
+			<button>
+				<title>events</title>
+				<link>photos/events.swf</link>
+				<xmlfile>xml/photos/events.xml</xmlfile>
+			</button>
+		
+		
+		<button>
+			<main>commercial</main>
+			<link>photos/commercial.swf</link>
+			<xmlfile>xml/photos/commercial.xml</xmlfile>
+		</button>
+			<button>
+				<title>architecture</title>
+				<link>photos/architecture.swf</link>
+				<xmlfile>xml/photos/architecture.xml</xmlfile>
+			</button>
+			<button>
+				<title>business</title>
+				<link>photos/business.swf</link>
+				<xmlfile>xml/photos/business.xml</xmlfile>
+			</button>
+			
+		<button>
+			<main>nature</main>
+			<link>photos/nature.swf</link>
+			<xmlfile>xml/photos/nature.xml</xmlfile>
+		</button>
+			<button>
+				<title>landscapes</title>
+				<link>photos/landscapes.swf</link>
+				<xmlfile>xml/photos/landscapes.xml</xmlfile>
+			</button>
+			<button>
+				<title>flowers</title>
+				<link>photos/flowers.swf</link>
+				<xmlfile>xml/photos/flowers.xml</xmlfile>
+			</button>
+			
+			
+		<button>
+			<main>fine art</main>
+			<link>photos/nature.swf</link>
+			<xmlfile>xml/photos/nature.xml</xmlfile>
+		</button>
+			<button>
+				<title>published work</title>
+				<link>photos/published.swf</link>
+				<xmlfile>xml/photos/published.xml</xmlfile>
+			</button>
+						
+	</portfolio>
+
+</flash>

@@ -1,0 +1,49 @@
+body { 
+scrollbar-base-color: #ffffff; 
+scrollbar-face-color: #666699; 
+scrollbar-track-color: #ffffff; 
+scrollbar-arrow-color: #000000;
+scrollbar-highlight-color: #333366; 
+scrollbar-3dlight-color: #CCCCff; 
+scrollbar-shadow-color: #000000;
+scrollbar-darkshadow-color: #000000; 
+}
+.header { font-family: verdana; font-size: 15px; font-style: normal; font-weight: bold; color: #CCCCFF; text-decoration: none; font-variant: small-caps; }
+
+.header2 { font-family: verdana; font-size: 15px; font-style: normal; font-weight: bold; color: #333366; text-decoration: none; font-variant: small-caps; }
+
+.header3 { font-family: verdana; font-size: 13px; font-style: normal; font-weight: bold; color: #333366; text-decoration: none; font-variant: small-caps; }
+
+.price { font-family: arial; font-size: 30px; font-style: italic; font-weight: bold; color: #FFFFFF; text-decoration: none; font-variant: normal; }
+
+.rule {	background-color: #333366; border-top-width: thin; border-right-width: thin; border-bottom-width: thin; border-left-width: thin; border-top-style: ridge; border-right-style: groove; border-bottom-style: groove; border-left-style: groove; border-top-color: #ccccff; border-right-color: #666699; border-bottom-color: #CCCCFF; border-left-color: 333366; }
+
+.body { font-family: verdana; font-size: 12px; font-style: normal; font-weight: normal; color: #333366; text-decoration: none; font-variant: small-caps; }
+
+.body2 { font-family: verdana; font-size: 10px; font-style: normal; font-weight: normal; color: #000000; text-decoration: none; }
+
+.style { font-family: verdana; font-size: 9pt; font-style: normal; line-height: normal; font-weight: normal; font-variant: normal; text-transform: lowercase; color: #FF9900; text-decoration: none}
+
+.page { font-family: verdana; font-size: 9pt; font-style: normal; line-height: normal; font-weight: bold; font-variant: normal; text-transform: lowercase; color: #000000; text-decoration: none}
+
+.copyright {  font-family: verdana; font-size: xx-small; font-style: italic; font-weight: normal; font-variant: small-caps; color: #999999; text-decoration: none}
+
+.over:link { font-family: verdana; font-size: 10px; font-style: normal; line-height: normal; font-weight: normal; font-variant: normal; text-transform: lowercase; color: #FFFFFF; text-decoration: none}
+
+.over:visited { font-family: verdana; font-size: 10px; font-style: normal; line-height: normal; font-weight: normal; font-variant: normal; text-transform: lowercase; color: #FFFFFF; text-decoration: none}
+
+.over:hover { font-family: verdana; font-size: 10px; font-style: normal; line-height: normal; font-weight: normal; font-variant: normal; text-transform: lowercase; color: #9999CC; text-decoration: none}
+
+.bold { font-family: verdana; font-size: 9pt; font-style: normal; font-weight: bold; color: #FFFFFF; text-decoration: none} 
+
+.buttons {  font-family: verdana; font-size: 10px; font-style: normal; line-height: normal; font-weight: normal; font-variant: normal; text-transform: lowercase; color: #FFFFFF; text-decoration: none; background-color: 666699; border: thin #CCCCFF groove}
+
+.field {  font-family: verdana; font-size: 10px; font-style: normal; font-weight: normal; font-variant: normal; color: #333366; text-decoration: none; background-color: #CCCCFF; border: none;}
+
+.cells {  font-family: verdana; font-size: 9pt; font-style: normal; font-weight: normal; font-variant: normal; text-transform: lowercase; color: #FF9900; text-decoration: none; background-color: #FFFFFF; border: thin #FF9900 dashed}
+
+.bottom:link { font-family: verdana; font-size: 10px; font-style: normal; line-height: normal; font-weight: normal; font-variant: normal; text-transform: lowercase; color: #333366; text-decoration: none}
+
+.bottom:visited { font-family: verdana; font-size: 10px; font-style: normal; line-height: normal; font-weight: normal; font-variant: normal; text-transform: lowercase; color: #333366; text-decoration: none}
+
+.bottom:hover { font-family: verdana; font-size: 10px; font-style: normal; line-height: normal; font-weight: normal; font-variant: normal; text-transform: lowercase; color: #666699; text-decoration: none}

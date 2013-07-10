@@ -1,0 +1,35 @@
+/* CSS Document */
+
+body {
+	font-size: 100%;
+}
+
+input, select {
+	width: expression(this.clientWidth > 120 ? '120px':true);
+	max-width: 120px;
+}
+
+#sidebar {
+	height: expression(this.clientHeight > 257 ? '257px':true);
+}
+
+#sidebar ul {
+	margin-left: 25px;
+}
+
+#content {
+	height: expression(this.clientHeight > 485 ? '485px':true);
+}
+
+#awheader_1 {
+	height: expression(this.clientHeight < 97 ? '97px':true);
+}
+
+#awsubheader {
+	height: expression(this.clientHeight < 60 ? '60px':true);
+}
+
+#content form {
+	position: relative;
+	margin-bottom: 10px;
+}

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<template>
+	<logo>
+		<company>company name</company>
+		<moto>my company moto</moto>
+		<color>0xF1B23E</color>
+		
+	</logo>
+	<links>
+		
+		<button>
+			<title>home</title>
+			<link>index.html</link>
+		</button>
+		<button>
+			<title>about</title>
+			<link>about.html</link>
+		</button>
+		<button>
+			<title>location</title>
+			<link>location.html</link>
+		</button>
+		<button>
+			<title>prices</title>
+			<link>prices.html</link>
+		</button>
+		<button>
+			<title>products</title>
+			<link>products.html</link>
+		</button>
+		<button>
+			<title>services</title>
+			<link>services.html</link>
+		</button>
+		<button>
+			<title>staff</title>
+			<link>staff.html</link>
+		</button>
+		<button>
+			<title>contact us</title>
+			<link>contact.html</link>
+		</button>
+		
+	</links>
+
+</template>

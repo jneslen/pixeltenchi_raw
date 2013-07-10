@@ -1,0 +1,182 @@
+/*
+Theme Name: AskWilla
+Theme URI: http://wordpress.org/
+Description: AskWilla Design by Jeff Neslen.
+Version: 1.6
+Author: Jeffrey Neslen
+Author URI: http://www.pixeltenchi.com/
+Tags: Maple, Floral, custom header, fixed width, three columns, widgets
+
+	This theme was designed and built by Jeffrey Neslen,
+
+*/
+
+
+
+/* Begin Typography & Colors */
+body {
+	font: Tahoma;
+	color: #999;
+	background-color: #fff; 
+	margin: 0px;
+	padding: 0px;
+	text-align: left;
+	/*background-image: url('images/aw_background.gif');*/
+	background-repeat: repeat-y;
+	background-position: 0, 0;
+}
+
+p {
+	padding: 0px;
+	font: 11px Tahoma; 
+	margin-top: 8px;
+	margin-bottom: 15px;
+	text-align: justify;
+}
+
+h1,h2,h3 {
+	margin-top: 15px;
+	padding: 0px;
+}
+
+h3 {
+	font: bold 11pt Tahoma;
+	margin-bottom: 0px; 
+	color: #6AA14E;
+	padding-bottom: 0px;
+}
+
+#page {
+	width: 900px;
+	height: 100%;
+	padding: 0;
+	margin: 0;
+	text-align: left;
+	border: 1px #ff0 solid;
+}
+
+.clear-both {
+	clear: both;
+}
+
+/********************Main Logo*********************/
+#awlogo, #fmlogo {
+	width: 205px;
+	padding: 0;
+	top: 0px;
+	left: 0px;
+	background-repeat: no-repeat;
+	background-position: 0 0;
+}
+
+#awlogo a, #fmlogo a {
+	/*setting a width breaks link area for PC IE 5*/
+	width: 205px;
+	text-indent: -1000px;
+	display: block;
+	overflow: hidden;
+}
+
+#awlogo a:hover, #fmlogo a:hover {
+	background-color: transparent;
+}
+
+#awlogo {
+	height: 60px;
+	background-image: url('../images/askwilla_logo.gif');
+}
+
+#awlogo a {
+	height: 60px;
+}
+
+#fmlogo {
+	height: 95px;
+	background-image: url('../images/familymatters_logo.gif');
+}
+
+#fmlogo a {
+	height: 95px;
+}
+
+/********************Column Styles*********************/
+
+#column_1, #column_2, #column_3 {
+	float: left;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	text-align: left;
+}
+
+#column_1 {
+	width: 205px;
+}
+
+#column_2 {
+	width: 485px;
+}
+
+#column_3 {
+	width: 210px;
+}
+
+#column_1 hr, #column_2 hr {
+	text-align: center;
+	height: 25px;
+	border: 0;
+	background-repeat: no-repeat;
+	background-position: 50, 50;
+}
+
+#column_1 hr {
+	margin-left: 22px;
+	margin-right: 23px;
+	background-image: url('../images/aw_hr2.gif');
+}
+
+#column_2 hr {
+	margin-left: 92px;
+	margin-right: 92px;
+	background-image: url('../images/aw_hr.gif');
+}
+
+#sidebar, #awheader_1, #awsubheader, #content {
+	margin: 0;
+	background-repeat: no-repeat;
+	background-position: 0, 0;
+}
+
+#sidebar {
+	width: 205px;
+	min-height: 257px;
+	padding: 10px;
+	background-image: url('../images/aw_sidenav_bg.gif');
+}
+
+#awheader_1 {
+	width: 485px;
+	min-height: 97px;
+	max-height: 97px;
+	background-image: url('../images/aw_header.jpg');
+}
+
+#awsubheader {
+	width: 485px;
+	min-height: 60px;
+	max-height: 60px;
+	background-image: url('../images/aw_subheader.jpg');
+}
+
+#content {
+	width: 485px;
+	min-height: 257px;
+	background-image: url('../images/aw_main_bg.gif');
+}
+
+#footer {
+	clear: both;
+	width: 900px;
+	margin: 0;
+}
+/* End captions */

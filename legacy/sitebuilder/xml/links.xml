@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<template>
+	<main>
+		<company>viperwebsystems</company>
+		<moto>web templates</moto>
+		
+	</main>
+	<info>
+		
+		<file>
+			<name>navigate red</name>
+			<number>.001</number>
+			<panel>swf/p001.swf</panel>
+			<detail>swf/d001.swf</detail>
+			<link>html/001/index.html</link>
+			<description>left navigation, white, able to hold 15 pages.</description>
+		</file>
+		<file>
+			<name>irish luck</name>
+			<number>.002</number>
+			<panel>swf/p002.swf</panel>
+			<detail>swf/d002.swf</detail>
+			<link>html/002/index.html</link>
+			<description>top navigation, white background, able to hold 8 pages.</description>
+		</file>
+		<file>
+			<name>simple tech</name>
+			<number>.003</number>
+			<panel>swf/p003.swf</panel>
+			<detail>swf/d003.swf</detail>
+			<link>html/003/index.html</link>
+			<description>top navigation, white background, able to hold 8 pages.</description>
+		</file>
+		<file>
+			<name>coaxile blue</name>
+			<number>.004</number>
+			<panel>swf/p004.swf</panel>
+			<detail>swf/d004.swf</detail>
+			<link>html/004/index.html</link>
+			<description>left navigation, white background, able to hold 15 pages.</description>
+		</file>
+		<file>
+			<name>arrow meeting</name>
+			<number>.005</number>
+			<panel>swf/p005.swf</panel>
+			<detail>swf/d005.swf</detail>
+			<link>html/005/index.html</link>
+			<description>top navigation, white background, able to hold 8 pages.</description>
+		</file>
+		<file>
+			<name>global blue</name>
+			<number>.006</number>
+			<panel>swf/p006.swf</panel>
+			<detail>swf/d006.swf</detail>
+			<link>html/006/index.html</link>
+			<description>top navigation, white background, able to hold 8 pages.</description>
+		</file>
+		<file>
+			<name>board room</name>
+			<number>.007</number>
+			<panel>swf/p007.swf</panel>
+			<detail>swf/d007.swf</detail>
+			<link>html/007/index.html</link>
+			<description>left navigation, white background, able to hold 15 pages.</description>
+		</file>
+		<file>
+			<name>downtown hills</name>
+			<number>.008</number>
+			<panel>swf/p008.swf</panel>
+			<detail>swf/d008.swf</detail>
+			<link>html/008/index.html</link>
+			<description>top navigation, white background, able to hold 8 pages.</description>
+		</file>
+		<file>
+			<name>a new revolution</name>
+			<number>.009</number>
+			<panel>swf/p009.swf</panel>
+			<detail>swf/d009.swf</detail>
+			<link>html/009/index.html</link>
+			<description>top navigation, white background, able to hold 8 pages.</description>
+		</file>
+		<file>
+			<name>techno orange</name>
+			<number>.010</number>
+			<panel>swf/p010.swf</panel>
+			<detail>swf/d010.swf</detail>
+			<link>html/010/index.html</link>
+			<description>top navigation, white background, able to hold 8 pages.</description>
+		</file>
+		<file>
+			<name>digital success</name>
+			<number>.011</number>
+			<panel>swf/p011.swf</panel>
+			<detail>swf/d011.swf</detail>
+			<link>html/011/index.html</link>
+			<description>left navigation, white background, able to hold 15 pages.</description>
+		</file>
+		<file>
+			<name>evolution</name>
+			<number>.012</number>
+			<panel>swf/p012.swf</panel>
+			<detail>swf/d012.swf</detail>
+			<link>html/012/index.html</link>
+			<description>left navigation, white background, able to hold 15 pages.</description>
+		</file>
+		<file>
+			<name>navigate red</name>
+			<number>.001b</number>
+			<panel>swf/p001b.swf</panel>
+			<detail>swf/d001b.swf</detail>
+			<link>html/001b/index.html</link>
+			<description>left navigation, black, able to hold 15 pages.</description>
+		</file>
+		<file>
+			<name>irish luck</name>
+			<number>.002b</number>
+			<panel>swf/p002b.swf</panel>
+			<detail>swf/d002b.swf</detail>
+			<link>html/002b/index.html</link>
+			<description>top navigation, black background, able to hold 8 pages.</description>
+		</file>
+		<file>
+			<name>simple tech</name>
+			<number>.003b</number>
+			<panel>swf/p003b.swf</panel>
+			<detail>swf/d003b.swf</detail>
+			<link>html/003b/index.html</link>
+			<description>top navigation, black background, able to hold 8 pages.</description>
+		</file>
+		<file>
+			<name>coaxile blue</name>
+			<number>.004b</number>
+			<panel>swf/p004b.swf</panel>
+			<detail>swf/d004b.swf</detail>
+			<link>html/004b/index.html</link>
+			<description>left navigation, black background, able to hold 15 pages.</description>
+		</file>
+		<file>
+			<name>arrow meeting</name>
+			<number>.005b</number>
+			<panel>swf/p005b.swf</panel>
+			<detail>swf/d005b.swf</detail>
+			<link>html/005b/index.html</link>
+			<description>top navigation, black background, able to hold 8 pages.</description>
+		</file>
+		<file>
+			<name>global blue</name>
+			<number>.006b</number>
+			<panel>swf/p006b.swf</panel>
+			<detail>swf/d006b.swf</detail>
+			<link>html/006b/index.html</link>
+			<description>top navigation, black background, able to hold 8 pages.</description>
+		</file>
+		<file>
+			<name>board room</name>
+			<number>.007b</number>
+			<panel>swf/p007b.swf</panel>
+			<detail>swf/d007b.swf</detail>
+			<link>html/007b/index.html</link>
+			<description>left navigation, black background, able to hold 15 pages.</description>
+		</file>
+		<file>
+			<name>downtown hills</name>
+			<number>.008b</number>
+			<panel>swf/p008b.swf</panel>
+			<detail>swf/d008b.swf</detail>
+			<link>html/008b/index.html</link>
+			<description>top navigation, black background, able to hold 8 pages.</description>
+		</file>
+		<file>
+			<name>a new revolution</name>
+			<number>.009b</number>
+			<panel>swf/p009b.swf</panel>
+			<detail>swf/d009b.swf</detail>
+			<link>html/009b/index.html</link>
+			<description>top navigation, black background, able to hold 8 pages.</description>
+		</file>
+		<file>
+			<name>techno orange</name>
+			<number>.010b</number>
+			<panel>swf/p010b.swf</panel>
+			<detail>swf/d010b.swf</detail>
+			<link>html/010b/index.html</link>
+			<description>top navigation, black background, able to hold 8 pages.</description>
+		</file>
+		<file>
+			<name>digital success</name>
+			<number>.011b</number>
+			<panel>swf/p011b.swf</panel>
+			<detail>swf/d011b.swf</detail>
+			<link>html/011b/index.html</link>
+			<description>left navigation, black background, able to hold 15 pages.</description>
+		</file>
+		<file>
+			<name>dark evolution</name>
+			<number>.012b</number>
+			<panel>swf/p012b.swf</panel>
+			<detail>swf/d012b.swf</detail>
+			<link>html/012b/index.html</link>
+			<description>left navigation, black background, able to hold 15 pages.</description>
+		</file>
+
+		
+	</info>
+
+</template>

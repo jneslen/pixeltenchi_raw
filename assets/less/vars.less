@@ -1,0 +1,152 @@
+@img_path: '/assets/img/';
+@theme_path: '/assets/img/griffin/';
+
+@titlebar_bg_color: #464445;
+@pixel_red: #9b040f;
+@breadcrumb_color: #068da0;
+@border_color: @gray;
+
+@icon_size: 24px;
+
+.han-bun {
+	.left;
+	width: 50%;
+}
+
+.left {
+	float: left;
+}
+
+.right {
+	float: right;
+}
+
+.clear {
+	clear: both;
+	margin: 0;
+	padding: 0;
+}
+
+.block {
+	display: block;
+}
+
+.hidden {
+	display: none;
+}
+
+.inline {
+	display: inline;
+}
+
+.inline-block {
+	display: inline-block;
+}
+
+.padded-content {
+	margin: 0 20px;
+}
+
+.padded-top {
+	margin-top: 20px;
+}
+
+.rel {
+	position: relative;
+}
+
+.abs {
+	position: absolute;
+}
+
+.align-left
+{
+	text-align: left;
+}
+
+.align-right
+{
+	text-align: right;
+}
+
+.align-top {
+	vertical-align: top;
+}
+
+.align-bottom {
+	vertical-align: bottom;
+}
+
+.center
+{
+	text-align: center;
+	margin: 0 auto;
+}
+
+.bold
+{
+	font-weight: bold;
+}
+
+.line-through
+{
+	text-decoration: line-through;
+}
+
+.caps {
+	text-transform: uppercase;
+}
+
+.norm {
+	text-transform: none;
+}
+
+.italics {
+	font-style: italic !important;
+}
+
+.border(@color: @border_color, @w: 1px) {
+	border: @w solid @color;
+}
+
+.border-bottom {
+	border-bottom: 1px solid @border_color;
+}
+
+.border-top {
+	border-top: 1px solid @border_color;
+}
+
+.border-right {
+	background: transparent url(@{img_path}solid-555.png) repeat-y top right;
+}
+
+.border-left {
+	background: transparent url(@{img_path}solid-555.png) repeat-y top left;
+}
+
+.rounded_corners(@radius: 5px) {
+	border-radius: @radius;
+	-moz-border-radius: @radius;
+	-webkit-border-radius: @radius;
+	behavior: url(/assets/js/PIE.htc);
+}
+
+.shadowbox(@alpha: 0.5, @distance: 10px) {
+	box-shadow: 0 0 @distance rgba(0, 0, 0, @alpha);
+	-moz-box-shadow: 0 0 @distance rgba(0, 0, 0, @alpha);
+	-webkit-box-shadow: 0 0 @distance rgba(0, 0, 0, @alpha);
+	behavior: url(/assets/js/PIE.htc);
+}
+
+.test1 {
+	background-color: #6aed64;
+}
+
+.test2 {
+	background-color: #edca6a;
+}
+
+.test3 {
+	background-color: #e86aed;
+}

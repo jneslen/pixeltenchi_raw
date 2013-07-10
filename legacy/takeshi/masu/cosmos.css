@@ -1,0 +1,96 @@
+/*****************************************************************************************
+ *                       埼玉財務スタイルシート
+ *                                                          作成日     ： H14.09.17
+ *                                                          バージョン ： v0.0.6
+ *****************************************************************************************/
+/*
+ ***** コスモス *****
+ */
+
+/* フォントサイズ */
+.fontsize {
+  font-size: 15px;
+}
+
+/* 必須項目 */
+.necess
+{
+  color: #FF0000;
+}
+
+/* (例) */
+.rei {
+  font-size: 15px;
+  color: #555555;
+}
+
+/*郵便番号*/
+.postnum {
+  font-size: 15px;
+  color: #0000FF;
+}
+
+
+
+/*
+ ***** 業務領域 *****
+ */
+
+/* body領域 */
+body {
+  color: #000000;
+  background-color: #FFFFFF;
+  margin:0;
+}
+
+/* 入力項目右詰 */
+.iptnum {
+  text-align: right;
+}
+
+/* 入力不可項目(文字) */
+.tbliimp {
+  color: #000000;
+  background-color: #CCCCCC;
+  word-break:break-all;
+}
+
+/* 入力不可項目(数字) */
+.tbliimpn {
+  color: #000000;
+  background-color: #CCCCCC;
+  word-break:break-all;
+  text-align: right;
+}
+
+/* 入力項目位置 */
+input {
+  vertical-align:middle;
+}
+
+/* 画像位置 */
+img {
+  vertical-align:middle;
+}
+
+/*
+
+/* エラーメッセージ表示領域 */
+.Errorfd{
+  color: #FF0000;
+  text-align: left;
+  background-color: #FFEBCD;
+  padding-left:20;
+  word-break:break-all;
+}
+
+/*
+ ***** 表 *****
+ */
+
+/* 表 */
+table {
+  word-break:break-all;
+  padding-left: 10px;
+}
+

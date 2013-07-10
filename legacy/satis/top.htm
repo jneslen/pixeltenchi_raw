@@ -1,0 +1,159 @@
+<html>
+<HEAD>
+<TITLE>POSRVログイン</TITLE>
+<META http-equiv="Pragma" content="no-cache">
+<META http-equiv="cache-control" content="no-cache">
+<SCRIPT language=JavaScript1.2><!--
+
+//--></SCRIPT>
+<link rel="stylesheet" href="./style.css" type="text/css">
+</HEAD>
+
+<BODY>
+<TABLE CLASS=I WIDTH=790 BORDER=0 CELLSPACING=0 CELLPADDING=0>
+<TR>
+<TD COLSPAN=1 WIDTH=790 HEIGHT=62 style=background-image:url('./image/top3.jpg');background-repeat:no-repeat;>
+	<DIV align=right>表示確認テスト会社&nbsp;確認拠点１
+</TD>
+</TR>
+<TR>
+<TD COLSPAN=1 WIDTH=790 HEIGHT=8><IMG WIDTH=790 HEIGHT=8 SRC='./image/topShades.gif'></TD>
+</TR>
+<TR>
+<TD COLSPAN=1 ALIGN=left valign=top>
+	<TABLE  WIDTH=790 BORDER=0 CELLPADDING=0 CELLSPACING=0>
+	<TR>
+	<TD WIDTH=790>
+		<TABLE CLASS=menu WIDTH=790 BORDER=0>
+		<TR>
+		<TD ALIGN=CENTER ><a CLASS=menu href=/rsvweb/Calendar.do title=カレンダー><IMG CLASS=menu SRC=./image/CalLinkgif.gif></a><div CLASS=small_string>カレンダー</div></TD>
+		<TD ALIGN=CENTER><a CLASS=menu href=/rsvweb/Link.do?link=RI0 title=予約登録><IMG CLASS=menu SRC=./image/RsvRegistLink.gif></a><div CLASS=small_string>予約登録</div></TD>
+		<TD ALIGN=CENTER><a CLASS=menu href=/rsvweb/Link.do?link=CI0 title=顧客登録><IMG CLASS=menu SRC=./image/CustRegistLink.gif></a><div CLASS=small_string>顧客登録</div></TD>
+		<TD ALIGN=CENTER><a CLASS=menu href=/rsvweb/Link.do?link=CS0 title=顧客検索><IMG CLASS=menu SRC=./image/SearchCustLinkr.gif></a><div CLASS=small_string>顧客検索</div></TD>
+		<TD ALIGN=CENTER><a CLASS=menu href=/rsvweb/ReserveFormShow.do title=予約フォーム><IMG CLASS=menu SRC=./image/RsvFormLink.gif></a><div CLASS=small_string>予約フォーム</div></TD>
+		<TD ALIGN=CENTER><a CLASS=menu href=/rsvweb/InformHistory.do title=告知><IMG CLASS=menu SRC=./image/InformLink.gif></a><div CLASS=small_string>告知</div></TD>
+		<TD ALIGN=CENTER><a CLASS=menu href=/rsvweb/Logout.do tilte=ログアウト><IMG CLASS=menu  SRC=./image/LogoutLink.gif></a><div CLASS=small_string>ログアウト</div></TD>
+		</TR>
+		</TABLE>
+	</TD>
+	</TR>
+	<TR><TD ALIGN=CENTER><TABLE WIDTH='95%' BORDER=0 CELLPADDING=0 CELLSPACING=0><TR><TD ALIGN=LEFT><input type='hidden' name='btnType' value=''/><a href='#' onClick='javascript:history.back()'><IMG CLASS=menu SRC=./image/backButton2.gif></a><input type='hidden' name='pageName' value='C002'/><TD ALIGN=RIGHT><a href='#' onClick='pageHowTo()'><IMG CLASS=menu SRC=./image/howtouse.gif></a>&nbsp;&nbsp;<a href='./sendAbendInfo.jsp' ><IMG CLASS=menu SRC=./image/sendAbend.gif></a>&nbsp;&nbsp;<a href=/rsvweb/Link.do?link=TP0><IMG CLASS=menu SRC=./image/topButton.gif></a></TD></TR></TABLE></TD></TR>	</TABLE>
+</TD>
+</TR>
+<TR>
+
+
+<TD WIDTH="750" ALIGN="CENTER" VALIGN="TOP" ID="content_tbl">
+	<TABLE CLASS=N WIDTH="100%" CELLSPACING="0" CELLPADDING="0" BORDER="1">
+	<TR>
+		<TD BACKGROUND="./image/title_w.gif">説明</TD>
+	</TR>
+	<TR>
+		<TD>
+<PRE>
+
+カレンダー　：　日単位の予約数の確認
+                営業形態の変更
+                予約の変更
+                予約の削除
+                を行います。   
+
+予約登録　　：　直接予約の登録を行います。
+
+顧客登録　　：　顧客の登録を行います。
+
+顧客検索　　；　顧客の検索を行い、QRコードの再発行や、顧客の変更・削除を行います。
+
+トップ　　　：　このページに戻ります。
+</PRE>
+
+		
+			リアルタイムの予約状況（本日）を見たい場合は、以下のリンクをクリックして下さい。<BR>
+			<a href="#" onClick="javascript:window.open('./reserveApplet.jsp','applet', 'scrollbars=yes, toolbar=no, location=no,menubar=yes, resizable=yes, status=yes, width=550, height=510')">予約状況起動</a>
+			<BR>
+			<BR>
+			<BR>
+			<BR>
+		
+		</TD>
+	</TR>
+	</TABLE>
+	<BR>
+	<TABLE CLASS=N WIDTH="100%" CELLSPACING="0" CELLPADDING="0" BORDER="1">
+		<TR>
+			<TD BACKGROUND="./image/title_n.gif">お知らせ</TD>
+		</TR>
+		<TR>
+			<TD>
+			    
+			    
+			    Ver. 3.0
+Ver. 3.0 では、予約時に写真や動画の送信が可能になります。<BR>
+			    
+			    
+			     
+			    Ver. 4.0
+Ver. 4.0 では、提供するサービスや商品の登録・変更が可能になります。<BR>
+			    
+			    		
+			</TD>	    			    
+		</TR>
+	</TABLE>
+	<BR>
+	<TABLE CLASS=N WIDTH="100%" CELLSPACING="0" CELLPADDING="0" BORDER="1">
+		<TR>
+			<TD BACKGROUND="./image/title_n.gif">直近の予約状況</TD>
+		</TR>
+		<TR>
+			<TD>
+				<TABLE WIDTH="100%" CELLSPACING="0" CELLPADDING="0" BORDER="1">
+				<TR>
+				
+				<TD align="center">14日(日)
+				
+				<TD align="center">15日(月)
+				
+				<TD align="center">16日(火)
+				
+				<TD align="center">17日(水)
+				
+				<TD align="center">18日(木)
+				
+				<TD align="center">19日(金)
+				
+				<TD align="center">20日(土)
+				
+				</TR>
+				<TR>
+				
+				<TD align="right">0件</TD>
+				
+				<TD align="right">0件</TD>
+				
+				<TD align="right">0件</TD>
+				
+				<TD align="right">0件</TD>
+				
+				<TD align="right">0件</TD>
+				
+				<TD align="right">0件</TD>
+				
+				<TD align="right">0件</TD>
+				
+				</TR>
+				</TABLE>
+			</TD>
+	</TABLE>
+		</TD>
+
+</TR>
+<TR>
+<TD COLSPAN=1 WIDTH=790 HEIGHT=62 VALIGN=BOTTOM><IMG WIDTH=790 HEIGHT=32 SRC='./image/footer.gif'>
+</TD>
+</TR>
+</TABLE>
+
+<!-- END BODY -->
+</BODY>
+
+</html>

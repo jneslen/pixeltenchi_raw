@@ -1,0 +1,75 @@
+IBM Homepage Builder 2000 体験版 試用期間解除
+FILENAME he40.exe
+0000E0C6: 85 40
+0000E0C7: C0 90
+0000E0C8: 74 75
+FILENAME Animator.exe
+00000AA4: 79 71
+FILENAME Composer.exe
+000652E4: 79 71
+FILENAME fxfer.exe
+00006AA4: 79 71
+--------------------
+FILENAME he40.exe
+0000E636: 85 33
+002AE046: 53 FD
+002AE047: 4F 88
+002AE048: 13 C1
+002AE049: 9A 54
+FILENAME Animator.exe
+000004D5: 85 33
+FILENAME Composer.exe
+0006503C: 85 33
+FILENAME fxfer.exe
+000068FA: 85 33
+00006926: 85 33
+
+
+<4>お名前：acotty 2000/09/15(金)21:45:56
+IBM Homepage Builder 2001 体験版
+FILENAME Animator.exe
+000019f3: 04 10
+00001a0d: 08 14
+00001a27: 0c 18
+FILENAME Webart.exe
+000b4813: 04 10
+000b482d: 08 14
+000b4847: 0c 18
+FILENAME fxfer.exe
+000078f3: 04 10
+0000790d: 08 14
+00007927: 0c 18
+FILENAME hpbpage.exe
+0003d1c3: 04 10
+0003d1dd: 08 14
+0003d1f7: 0c 18
+
+<5>お名前：名無しさん 2000/09/15(金)21:46:24
+
+--------------------
+FILENAME hpbpage.exe
+0003CF96: 7D EB
+0003CFDD: 7D EB
+FILENAME Animator.exe
+000017C6: 7D EB
+0000180D: 7D EB
+FILENAME fxfer.exe
+000076C6: 7D EB
+0000770D: 7D EB
+FILENAME Webart.exe 1
+000B45E6: 7D EB
+000B462D: 7D EB
+--------------------
+
+<6>お名前：acotty 2000/09/15(金)21:47:32
+IBM Homepage Builder 2001 体験版
+*ﾌｧｲﾙ保存時の(Trial)の文字消し
+FILENAME hpbpage.exe
+0038087F: 28 00
+00380880: 54 00
+00380881: 72 00
+00380882: 69 00
+00380883: 61 00
+00380884: 6C 00
+00380885: 29 00
+--------------------

@@ -1,0 +1,350 @@
+<html>
+<link rel="stylesheet" type="text/css" href="./cosmos.css">
+<head>
+<META HTTP-EQUIV="CONTENT-TYPE" CONTENT="TEXT/HTML; CHARSET=Shift_JIS">
+<title>COSMOS</title>
+<style type="text/css">
+<!--
+body {
+background-color:#FFCCFF;
+color:black;
+text-align:center;
+font-family:monospace;
+}
+h1 {font-size:large;}
+h2 {font-size:medium;color:indianred;}
+div.footer {margin-top:4em;}
+table {margin:1em auto;border:inset 1pt;}
+th,td {text-align:left;padding:0.3em;border:outset 1pt;}
+dl {text-align:left;}
+dt {margin-top:1em;}
+label {cursor:pointer;}
+-->
+</style>
+<script language="JavaScript">
+<!--
+	function isNullCheck(){
+		if(document.form1.name1.value==""){
+			alert("空だぜ！");
+		}
+	}
+// -->
+</script>
+</head>
+<body bgcolor="#FFFFFF" link="#666633" alink="#FF6600" vlink="#666633" text="#333333">
+	<center>
+		<TABLE WIDTH="619" CELLSPACING="0" CELLPADDING="0" BORDER="0">
+		<TR>
+		  <TD COLSPAN="3" BGCOLOR="#CCCCCC">
+		    <FONT  FACE="Osaka,*" class="fontsize" ><CENTER><B>お客様情報について入力して下さい。</B></CENTER></FONT>
+		  </TD>
+		</TR>
+		<TR>
+		  <TD COLSPAN="5"></TD>
+		</TR>
+		<TR>
+		  <TD></TD>
+		  <TD></TD>
+		  <TD COLSPAN=3>
+		</TR>
+		</TABLE>
+		<FORM name="form1" ACTION="" METHOD="post">
+		<TABLE BORDER="0" CELLSPACING="0" CELLPADDING="0">
+			<TR><TD VALIGN="TOP"></TD>
+			<TR>
+			  <TD COLSPAN="5"></TD>
+			</TR>
+			<TR>
+			  <TD>
+			  </TD>
+			  <TD>&nbsp;
+			  </TD>
+			  <TD><FONT  FACE="Osaka,*" class="fontsize" >姓</FONT>
+			  </TD><TD>&nbsp;&nbsp;<FONT  FACE="Osaka,*" class="fontsize" >名</FONT>
+			  </TD>
+			  <TD>
+			  </TD>
+			</TR>
+<!-- お名前 -->
+			<TR VALIGN=TOP height="25">
+			  <TD>
+			  </TD>
+			  <TD><FONT  FACE="Osaka,*" class="fontsize" >お名前</FONT>&nbsp;<FONT class="necess">*</FONT>
+			  </TD>
+			  <TD NOWRAP>
+			    <INPUT TYPE="text" NAME="name1" SIZE="10" MAXLENGTH="5" value="">
+			  </TD>
+			  <TD NOWRAP>&nbsp;
+			    <INPUT TYPE="text" NAME="name2" SIZE="10" MAXLENGTH="5" value="">
+			    <FONT  FACE="Osaka,*" class="fontsize" >様&nbsp;&nbsp;</FONT>
+			  </TD>
+			  <TD>
+			    <FONT  FACE="Osaka,*" class="rei" >（全角）例：伊井　羽菜</FONT>
+			  </TD>
+			</TR>
+			<TR>
+			  <TD COLSPAN="5"></TD>
+			</TR>
+<!-- フリガナ -->
+			<TR height="25">
+			  <TD>
+			  </TD>
+			  <TD><FONT  FACE="Osaka,*" class="fontsize" >フリガナ</FONT>&nbsp;<FONT class="necess">*</FONT>
+			  </TD>
+			  <TD>
+			    <INPUT TYPE="text" NAME="kana1" SIZE="10" MAXLENGTH="8" value=""></TD>
+			  <TD>&nbsp;
+			    <INPUT TYPE="text" NAME="kana2" SIZE="10" MAXLENGTH="8" value="">
+			  </TD>
+			  <TD>
+			    <FONT  FACE="Osaka,*" class="rei" >（全角）例：イイ　ハナ</FONT>
+			  </TD>
+			</TR>
+<!-- 郵便番号 -->
+			<TR>
+			  <TD COLSPAN="5"></TD>
+			</TR height="25">
+			<TR><TD></TD><TD><FONT  FACE="Osaka,*" class="fontsize" >郵便番号</FONT>
+			  </TD><TD COLSPAN="2" NOWRAP>
+			   <INPUT TYPE="text" NAME="postal_code1" SIZE="3" MAXLENGTH="3" value="">
+			   -
+			   <INPUT TYPE="text" NAME="postal_code2" SIZE="4"  MAXLENGTH="4" value="">&nbsp;&nbsp;<A HREF="http://search.post.yusei.go.jp/7zip/" TARGET="_blank"><FONT FACE="Osaka,*" class="postnum" ><U>郵便番号検索</U></FONT></A></TD><TD><FONT  FACE="Osaka,*" class="rei" >（半角）例：115-0045</FONT></TD>
+			</TR>
+<!-- 都道府県 -->
+			<TR><TD COLSPAN="5"></TD></TR>
+			<TR height="25">
+			  <TD>
+			  </TD>
+			  <TD>
+			    <FONT  FACE="Osaka,*" class="fontsize" >都道府県</FONT>
+			</TD>
+			  <TD COLSPAN="2">
+				<select name="prefecture">
+				  <option value="0">▼選択して下さい
+				  <option value="1">北海道
+				  <option value="2">青森県
+				  <option value="3">岩手県
+				  <option value="4">宮城県
+				  <option value="5">秋田県
+				  <option value="6">山形県
+				  <option value="7">福島県
+				  <option value="8">茨城県
+				  <option value="9">栃木県
+				  <option value="10">群馬県
+				  <option value="11">埼玉県
+				  <option value="12">千葉県
+				  <option value="13">東京都
+				  <option value="14">神奈川県
+				  <option value="15">新潟県
+				  <option value="16">富山県
+				  <option value="17">石川県
+				  <option value="18">福井県
+				  <option value="19">山梨県
+				  <option value="20">長野県
+				  <option value="21">岐阜県
+				  <option value="22">静岡県
+				  <option value="23">愛知県
+				  <option value="24">三重県
+				  <option value="25">滋賀県
+				  <option value="26">京都府
+				  <option value="27">大阪府
+				  <option value="28">兵庫県
+				  <option value="29">奈良県
+				  <option value="30">和歌山県
+				  <option value="31">鳥取県
+				  <option value="32">島根県
+				  <option value="33">岡山県
+				  <option value="34">広島県
+				  <option value="35">山口県
+				  <option value="36">徳島県
+				  <option value="37">香川県
+				  <option value="38">愛媛県
+				  <option value="39">高知県
+				  <option value="40">福岡県
+				  <option value="41">佐賀県
+				  <option value="42">長崎県
+				  <option value="43">熊本県
+				  <option value="44">大分県
+				  <option value="45">宮崎県
+				  <option value="46">鹿児島県
+				  <option value="47">沖縄県
+				  </select>
+			  </TD>
+			  <TD>
+			  </TD>
+			</TR>
+<!-- 市町村区 -->
+			<TR>
+			  <TD COLSPAN="5"></TD></TR>
+			<TR height="25">
+			  <TD>
+			  </TD>
+			  <TD>
+			    <FONT  FACE="Osaka,*" class="fontsize" >市町村区</FONT>
+			  </TD>
+			  <TD COLSPAN="2">
+			    <INPUT TYPE="text" NAME="city" SIZE="24" MAXLENGTH="8" value="">
+			  </TD>
+			  <TD>
+			    <FONT  FACE="Osaka,*" class="rei" >
+			      （全角）例：品川区東五反田
+			    </FONT>
+			  </TD>
+			</TR>
+			
+			
+			<TR>
+			  <TD COLSPAN="5"></TD>
+			</TR>
+			<TR>
+			  <TD>
+			  </TD>
+			  <TD><FONT  FACE="Osaka,*" class="fontsize" >番地</FONT>
+			  </TD>
+			  <TD COLSPAN="2">
+			    <INPUT TYPE="text" NAME="address" SIZE="24" MAXLENGTH="16" value="">
+			  </TD>
+			  <TD><FONT  FACE="Osaka,*" class="rei" >（全角）例：1-21-13</FONT>
+			  </TD>
+			</TR>	
+<!-- 建物など -->
+			<TR>
+			  <TD COLSPAN="5"></TD>
+			</TR>
+			<TR height="25">
+			  <TD>
+			  </TD>
+			  <TD NOWRAP><FONT  FACE="Osaka,*" class="fontsize" >建物名など</FONT>
+			  </TD>
+			  <TD COLSPAN="2">
+			    <INPUT TYPE="text" NAME="building" SIZE="24" MAXLENGTH="16" value="">
+			  </TD>
+			  <TD><FONT  FACE="Osaka,*" class="rei" >（全角）例：ランディック五反田ビル</FONT>
+			  </TD>
+			</TR>	
+<!-- 電話番号 -->
+			<TR>
+			  <TD COLSPAN="5"></TD>
+			</TR>
+			<TR height="25">
+			  <TD>
+			  </TD>
+			  <TD><FONT  FACE="Osaka,*" class="fontsize" >電話番号</FONT>
+			  </TD>
+			  <TD COLSPAN="2">
+			    <INPUT TYPE="text" NAME="tel1" SIZE="5" MAXLENGTH="4" value="">
+			     -
+			    <INPUT TYPE="text" NAME="tel2" SIZE=4 MAXLENGTH="4" value="">
+			     -
+			    <INPUT TYPE="text" NAME="tel3" SIZE="4" MAXLENGTH="4" value="">
+			  </TD>
+			  <TD><FONT  FACE="Osaka,*" class="rei" >（半角）例：03-1234-5678</FONT>
+			  </TD>
+			</TR>
+<!-- ＦＡＸ番号 -->
+			<TR>
+			  <TD COLSPAN="5"></TD>
+			</TR>
+			<TR height="25">
+			  <TD>
+			  </TD>
+			  <TD><FONT  FACE="Osaka,*" class="fontsize" >ＦＡＸ番号</FONT>
+			  </TD>
+			  <TD COLSPAN="2">
+			    <INPUT TYPE="text" NAME="fax1" SIZE="5" MAXLENGTH="5" value="">
+			     -
+			    <INPUT TYPE="text" NAME="fax2" SIZE=4 MAXLENGTH="4" value="">
+			     -
+			    <INPUT TYPE="text" NAME="fax3" SIZE="4" MAXLENGTH="4" value="">
+			  </TD>
+			  <TD><FONT  FACE="Osaka,*" class="rei" >（半角）例：042-973-9877</FONT>
+			  </TD>
+			</TR>	
+<!-- 性別 -->
+			<TR>
+			  <TD COLSPAN="5"></TD>
+			</TR>
+			<TR>
+			  <TD>
+			  </TD>
+			  <TD NOWRAP><FONT  FACE="Osaka,*" class="fontsize" >性別</FONT>
+			  </TD>
+			  <TD COLSPAN="2">
+			    男性<INPUT type="radio" name="sex" value="1" checked>&nbsp;&nbsp;&nbsp;
+			    女性<INPUT type="radio" name="sex" value="2" >
+			  </TD>
+			  <TD>
+			  </TD>
+			</TR>	
+<!-- メール -->
+			<TR>
+			  <TD COLSPAN="5"></TD>
+			</TR>
+			<TR height="25">
+			  <TD>
+			  </TD>
+			  <TD><FONT  FACE="Osaka,*" class="fontsize" >メール</FONT>&nbsp;<FONT class="necess">*</FONT>
+			  </TD>
+			  <TD COLSPAN="2">
+			    <INPUT TYPE="text" NAME="mail1" SIZE="10" MAXLENGTH="20" value="">
+			     @
+			    <INPUT TYPE="text" NAME="mail2" SIZE="10" MAXLENGTH="40" value="">
+			  </TD>
+			  <TD><FONT  FACE="Osaka,*" class="rei" >（半角）例：HANA@hana.com</FONT>
+			  </TD>
+			</TR>	
+<!-- 年齢 -->
+			<TR>
+			  <TD COLSPAN="5"></TD>
+			</TR>
+			<TR height="25">
+			  <TD>
+			  </TD>
+			  <TD><FONT  FACE="Osaka,*" class="fontsize" >年齢</FONT>
+			  </TD>
+			  <TD COLSPAN="2">
+			    <INPUT TYPE="text" NAME="age" SIZE="3" MAXLENGTH="3" value="">
+			    歳
+			  </TD>
+			  <TD><FONT  FACE="Osaka,*" class="rei" >（半角）例：35歳</FONT>
+			  </TD>
+			</TR>	
+<!-- 生年月日 -->
+			<TR>
+			  <TD COLSPAN="5"></TD>
+			</TR>
+			<TR height="25">
+			  <TD>
+			  </TD>
+			  <TD><FONT  FACE="Osaka,*" class="fontsize" >生年月日</FONT>
+			  </TD>
+			  <TD COLSPAN="2">
+			    <INPUT TYPE="text" NAME="birth1" SIZE="5" MAXLENGTH="4" value="">
+			     年
+			    <INPUT TYPE="text" NAME="birth2" SIZE=4 MAXLENGTH="2" value="">
+			     月
+			    <INPUT TYPE="text" NAME="birth3" SIZE="4" MAXLENGTH="2" value="">
+			     日
+			  </TD>
+			  <TD><FONT  FACE="Osaka,*" class="rei" >（半角）例：1968年1月10日</FONT>
+			  </TD>
+			</TR>
+<!-- 登録ボタン -->
+			<tr height="25">
+			  <TD COLSPAN="5">
+			</tr>
+			<TR height="25">
+			  <TD COLSPAN="4">
+			  </TD>
+			  <TD>
+			    <INPUT TYPE="submit" NAME="soushin" value="          登  録          " onclick="isNullCheck()">
+			  </TD>
+			</TR>
+			</TABLE>
+		</FORM>
+		<p>
+		<font face="osaka,MS Pゴシック,arial,helvetica" size="-1"><SPAN CLASS="css2n">
+		Copyright(C)2004  COSMOS CO.,LTD. All Rights Reserved</SPAN></font><br>
+	</center>
+</body>
+</html>

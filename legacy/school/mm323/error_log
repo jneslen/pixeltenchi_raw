@@ -1,0 +1,6 @@
+[12-Aug-2003 23:22:54] PHP Warning:  mysql_connect(): Access denied for user: 'xzbtr_xzbtr@209.237.244.241' (Using password: YES) in /usr/home/xzbtr/public_html/nezlen/school/mm323/honda.php on line 3
+[12-Aug-2003 23:27:34] PHP Warning:  mysql_connect(): Access denied for user: 'xzbtr_xzbtr@209.237.244.241' (Using password: YES) in /usr/home/xzbtr/public_html/nezlen/school/mm323/honda.php on line 3
+[12-Aug-2003 23:28:17] PHP Warning:  mysql_connect(): Access denied for user: 'xzbtr@209.237.244.241' (Using password: YES) in /usr/home/xzbtr/public_html/nezlen/school/mm323/honda.php on line 3
+[12-Aug-2003 23:29:12] PHP Warning:  mysql_connect(): Access denied for user: 'xzbtr_xzbtr@209.237.244.241' (Using password: YES) in /usr/home/xzbtr/public_html/nezlen/school/mm323/honda.php on line 3
+[12-Aug-2003 23:30:11] PHP Warning:  mysql_connect(): Access denied for user: 'xzbtr_xzbtr@209.237.244.241' (Using password: YES) in /usr/home/xzbtr/public_html/nezlen/school/mm323/honda.php on line 3
+[12-Aug-2003 23:33:52] PHP Warning:  mysql_connect(): Access denied for user: 'xzbtr_xzbtr@209.237.244.241' (Using password: YES) in /usr/home/xzbtr/public_html/nezlen/school/mm323/honda.php on line 3

@@ -1,0 +1,233 @@
+/* CSS Document */
+
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	background-image: url(../images/background.gif);
+	scrollbar-base-color: #FFFFFF;
+	scrollbar-face-color: #FF0099;
+	scrollbar-track-color: #FFCCFF;
+	scrollbar-arrow-color: #FFFFFF;
+	scrollbar-highlight-color: #FFFFFF;
+	scrollbar-3dlight-color: #003366;
+	scrollbar-shadow-color: #999999;
+	scrollbar-darkshadow-color: #CC99CC;
+}
+
+td {
+	border: 0px none #FFFFFF;
+	font: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	font-style: normal;
+	color: #000000;
+	text-align: left;
+}
+
+#main_tbl {
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-top-style: none;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-right-color: #FF0099;
+	border-bottom-color: #FF0099;
+	border-left-color: #FF0099;
+	background-color: #FFFFFF;
+}
+
+.item_shell {
+	background-image: url(../images/left_back.gif);
+}
+
+.content_border {
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-right-color: #FF0099;
+	border-bottom-color: #FF0099;
+	border-left-color: #FF0099;
+}
+
+#menu_tbl {
+	height: 27px;
+	width: 750px;
+	padding: 0px 0px 0px 0px;
+	border: 0px none;
+}
+
+#content_tbl {
+	border-top: 1px dotted #CC99CC;
+	padding: 0px 5px 5px 5px;
+}
+
+#content_td {
+	padding: 5px 5px 5px 5px;
+	margin: 0px 5px 0px 5px;
+	border-left:1px solid #CC99CC;
+	border-right:1px solid #CC99CC;
+	border-top:1px solid #CC99CC;
+	border-bottom:1px solid #CC99CC;
+}
+
+#footer_tbl {
+	background-image: url(../images/footer.gif);
+	width: 750px;
+	height: 20px;
+	padding: 0px 0px 0px 0px;
+	border-bottom: 1px solid;
+	border-top: 1px solid;
+	border-color: #999999;
+}
+
+#left_menu {
+	background-image: url(../images/left_back.gif);
+	border-top: 1px dotted #FF0099;
+	border-right: 1px dotted #FF0099;
+}
+
+#left_box {
+	margin: 10px 5px 10px 5px;
+	border: 1px dotted #CC99CC;
+	padding: 5px 5px 5px 5px;
+}
+
+#left_blank_box {
+	margin: 10px 5px 10px 5px;
+	padding: 5px 5px 5px 5px;
+}
+
+#margin {
+	margin: 10px 5px 10px 10px;
+}
+
+#dot_under {
+	border-bottom: 1px dotted;
+	border-bottom-color: #FFFFFF;
+}
+
+#dot_top {
+	border-top: 1px dotted;
+	border-top-color: #FFFFFF;
+}
+
+.menu_links {
+	font: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	font-style: normal;
+	color: #FF0099;
+	text-decoration: none;
+}
+
+.menu_links:hover {
+	font: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	font-style: normal;
+	color: #FFFFFF;
+	text-decoration: underline;
+}
+
+.body_links {
+	font: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	font-style: normal;
+	color: #FF0099;
+	text-decoration: none;
+}
+
+.body_links:hover {
+	font: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	font-style: normal;
+	color: #FF0099;
+	text-decoration: underline;
+}
+
+
+.back_02 {
+	background-image:url(../images/back_02.gif);
+	background-repeat:repeat-x;
+}
+
+.back_11 {
+	background-image:url(../images/back_11.gif);
+	background-repeat:repeat-x;
+}
+
+.back_12 {
+	background-image:url(../images/back_12.gif);
+	background-repeat:repeat-x;
+}
+
+.menu_back {
+	background-image:url(../images/menu_back.gif);
+	background-repeat:no-repeat;
+	padding: 0em 0em 0em 1em;
+}
+
+.dotted {
+	border-right-width: 1px;
+	border-right-style: dotted;
+	border-right-color: #FFFFFF;
+}
+
+.header_menu {
+	background-image:url(../images/menu_back.gif);
+	background-repeat:no-repeat;
+	padding: 7px 0em 0em 1em;
+	font: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	font-style: normal;
+	color: #FF0099;
+	text-decoration: none;
+}
+
+#copyright {
+	text-align: right;
+}
+
+#cart_border {
+	border-bottom-width: 1px;
+	border-bottom-style: dotted;
+	border-bottom-color: #FF0099;
+}
+
+#cart_inside {
+	border-bottom-width: 1px;
+	border-bottom-style: dotted;
+	border-bottom-color: #FFFFFF;
+}
+
+#big_font {
+	font: Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	font-weight: bold;
+	font-style: normal;
+	color: #FF0099;
+}
+
+#right_align {
+	text-align: right;
+	padding-left: 50px;
+}
+
+#p_padding {
+	padding-left:15px;
+	padding-right:15px;
+}
+
+hr {
+	border: 1px solid #CC99CC;
+}

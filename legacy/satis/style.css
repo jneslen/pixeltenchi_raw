@@ -1,0 +1,580 @@
+body{
+
+}
+
+
+/* -- メニュー表示 --*/
+table.menu, TABLE.MENU {
+    font-size           : 120%;
+    font-weight         : bold;
+}
+
+img.menu, IMG.MENU {
+	border-width        : 0px;
+	float               : none;
+}
+/* -- 項目 --*/
+th.item, TH.ITEM {
+	background-color    : #DBDACC; 
+	text-align          : left; 
+	color               : black;
+	font-weight         : normal;
+	border              : 1px solid #69748D;
+}
+
+th.is, TH.IS {
+	background-color    : #DBDACC; 
+	text-align          : left; 
+	color               : black;
+	font-weight         : normal;
+	border              : 0px none #69748D;
+}
+
+td.n, TD.N {
+	border              : 1px solid #69748D;
+}
+
+/* -- 入力項目 --*/
+input.n, INPUT.N {
+	border-width        : 2px;
+}
+
+/* -- ページ機能・名称表示 --*/
+td.t_top, TD.T_TOP {
+	background-image    : url("/rsvweb/jsp/image/title_n.gif");
+	text-align          : center;
+	font-size:120%;
+}
+
+
+/* -- テーブル標準 --*/
+table.n, TABLE.N {
+	empty-cells         : show;
+	border              : 1px double green;
+	border-collapse     : collapse;
+	margin              : 0px 0px 0px 10px;
+	font-family:"ＭＳ Ｐゴシック", Verdana, Osaka, "ヒラギノ角ゴ Pro W3";
+	font-weight:normal;
+	font-style:normal;
+	font-size:90%;
+}
+
+/* -- テーブル（内部テーブル) --*/
+table.i, TABLE.I {
+	border-collapse     : collapse;
+	margin              : 0px 0px 0px 0px;
+	font-family:"ＭＳ Ｐゴシック", Verdana, Osaka, "ヒラギノ角ゴ Pro W3";
+	font-weight:normal;
+	font-style:normal;
+	font-size:90%;
+}
+
+/* -- ボタン --*/
+.b_n, .B_N {
+	border-style        : ridge;
+	border-color        : green;
+	border-width        : 3px;
+}
+
+/* -- エラー --*/
+di.er, DIV.ER {
+	margin              :0px 0px 5px 10px;
+}
+
+.small_string {
+	font-size           : 50%;
+}
+
+body, BODY {
+	background-color    :#FFFFFF;
+	margin              : 0px;
+}
+
+table.day_t, TABLE.DAY_T {
+	margin              : 0px;
+	border-spacing      : 0px;
+}
+
+/* -- 未使用品 -- */
+a:visited.menu, A:VISITED.MENU {
+	color               : #006E8F;
+}
+	
+	
+a:hover.menu, A:HOVER.MENU {
+	color               : #58317E;
+}
+
+
+a:link.menu, A:LINK.MENU {
+	color               : #006E8F;
+}
+
+
+
+/* -----標準ボディ　スタイル-----  */
+
+
+/* -----ログインユーザ情報　スタイル（20040915　追加）-----  */
+table.header {
+    margin              : 0px;
+    background-image    : url(../image/btn-back.gif);
+    background-repeat   : repeat;
+    width               : 100%;
+    height              : 30px;
+}
+td.user {
+    border: none;
+    margin: 0px;
+    padding: 2px 8px 2px 8px;
+    font-family: "ＭＳ ゴシック",sans-serif;
+/* font-size            :9pt; 20041117 font %指定のため削除 */
+    font-size           :80%; /* 20041117 font %指定のため追加 */
+}
+
+/* -----タイトル　スタイル-----  */
+table.title, TABLE.TITLE{
+    border-style        :none;
+    /* background           :#333366; 20040915 削除　以下1行追加 */
+    background          :#3D6D55;
+    width               :100%;
+    height              :28px;
+    color               :white;
+    font-family: "ＭＳ ゴシック",sans-serif;
+}
+td.title_bar, TD.TITLE_BAR{
+    text-align          :left;
+/* font-size            :13pt; 20041117  font %指定のため削除 */
+    font-size           :110%; /* 20041117 font %指定のため追加 */
+}
+td.title_time, TD.TITLE_TIME{
+    color               :white;
+    width               :25%;
+    text-align          :right;
+/* font-size            :10pt; 20041117  font %指定のため削除 */
+    font-size           :85%; /* 20041117 font %指定のため追加 */
+}
+
+/* -----画面階層　スタイル-----  */
+table.dir, TABLE.DIR{
+    border-style        :none;
+    background          :white;
+    width               :100%;
+    height              :30px;
+    color               :black;
+    font-family: "ＭＳ ゴシック",sans-serif;
+}
+td.dir, TD.DIR{
+    text-align          :left;
+/* font-size            :11pt;  20041117 font %指定のため削除 */
+    font-size           :100%; /*20041117 font %指定追加 */
+}
+/* -----画面階層　スタイル(9P)20040831-----  */
+td.dir_9, TD.DIR_9{
+    text-align          :left;
+/* font-size            :9pt; 20041117 font %指定のため削除 */
+    font-size           :80%; /* 20041117 font %指定のため追加 */
+}
+td.help_b, TD.HELP_B{
+    text-align          :right;
+/* font-size            :11pt;  20041117 font %指定のため削除 */
+    font-size           :100%; /*20041117 font %指定追加 */
+}
+
+/* -----メッセージ表示　スタイル-----  */
+table.mess, TABLE.MESS{
+    border-style        :none;
+    background          :white;
+    width               :100%;
+    height              :30px;
+    font-family: "ＭＳ ゴシック",sans-serif;
+/* font-size            :11pt;  20041117 font %指定のため削除 */
+    font-size           :100%; /*20041117 font %指定追加 */
+    color               :red;
+}
+/* -----メッセージ表示　スタイル(9P)20040831-----  */
+table.mess_9, TABLE.MESS_9{
+    border-style        :none;
+    background          :white;
+    width               :100%;
+    height              :30px;
+    font-family: "ＭＳ ゴシック",sans-serif;
+/* font-size            :9pt; 20041117 font %指定のため削除 */
+    font-size           :80%; /* 20041117 font %指定のため追加 */
+    color               :red;
+}
+td.mess_cd, TD.MESS_CD{
+    vertical-align      :top;
+    width               :55px;
+}
+td.mess_txt, TD.MESS_TXT{
+    vertical-align      :top;
+}
+
+/* -----ヘルプ画面　スタイル-----  */
+table.help, TABLE.HELP{
+    border-style        :none;
+    color               :black;
+    font-family: "ＭＳ ゴシック",sans-serif;
+/* font-size            :11pt;  20041117 font %指定のため削除 */
+    font-size           :100%; /*20041117 font %指定追加 */
+}
+/* -----ヘルプ画面　スタイル(9P)20040831-----  */
+table.help_9, TABLE.HELP_9{
+    border-style        :none;
+    color               :black;
+    font-family: "ＭＳ ゴシック",sans-serif;
+/* font-size            :9pt; 20041117 font %指定のため削除 */
+    font-size           :80%; /* 20041117 font %指定のため追加 */
+}
+td.help_title, TD.HELP_TITLE{
+    text-align          :left;
+    background          :#9999CC;
+    padding             :3px;
+}
+td.help_detail, TD.HELP_DETAIL{
+    text-align          :left;
+    background          :#CCCCCC;
+    padding             :3px;
+}
+
+/* -----入力画面　スタイル-----  */
+table.entry, TABLE.ENTRY{
+    border-style        :none;
+    color               :black;
+    font-family: "ＭＳ ゴシック",sans-serif;
+/* font-size            :11pt;  20041117 font %指定のため削除 */
+    font-size           :100%; /*20041117 font %指定追加 */
+}
+/* -----入力画面　スタイル(9P)20040831-----  */
+table.entry_9, TABLE.ENTRY_9{
+    border-style        :none;
+    color               :black;
+    font-family: "ＭＳ ゴシック",sans-serif;
+/* font-size            :9pt; 20041117 font %指定のため削除 */
+    font-size           :80%; /* 20041117 font %指定のため追加 */
+}
+td.entry_title, TD.ENTRY_TITLE{
+    text-align          :left;
+    background          :#9999CC;
+    padding             :3px;
+}
+td.entry_detail, TD.ENTRY_DETAIL{
+    text-align          :left;
+    background          :#CCCCCC;
+    padding             :3px;
+}
+
+/* -----一覧制御部(100)　スタイル-----  */
+table.list100_act, TABLE.LIST100_ACT{
+    width               :100%;
+    color               :black;
+    font-family: "ＭＳ ゴシック",sans-serif;
+/* font-size            :11pt;  20041117 font %指定のため削除 */
+    font-size           :100%; /*20041117 font %指定追加 */
+    border-collapse     :collapse;
+}
+/* -----一覧制御部(100)　スタイル(9P)20040831-----  */
+table.list100_act_9, TABLE.LIST100_ACT_9{
+    width               :100%;
+    color               :black;
+    font-family: "ＭＳ ゴシック",sans-serif;
+/* font-size            :9pt; 20041117 font %指定のため削除 */
+    font-size           :80%; /* 20041117 font %指定のため追加 */
+    border-collapse     :collapse;
+}
+td.list100_act, TD.LIST100_ACT{
+    text-align          :left;
+    vertical-align      :middle;
+    background          :#9999CC;
+    border-width        :3px;
+    border-style        :ridge;
+    empty-cells         :show;
+}
+
+/* -----一覧部(100%11P)　スタイル-----  */
+table.list100_line, TABLE.LIST100_LINE{
+    width               :100%;
+    color               :black;
+    font-family: "ＭＳ ゴシック",sans-serif;
+/* font-size            :11pt;  20041117 font %指定のため削除 */
+    font-size           :100%; /*20041117 font %指定追加 */
+    border-collapse     :collapse;
+}
+th.list100_line, TH.LIST100_LINE{
+    text-align          :center;
+    vertical-align      :middle;
+    background          :#9999CC;
+    border-width        :3px;
+    border-style        :ridge;
+    empty-cells         :show;
+    font-weight         :400;
+}
+td.list100_line, TD.LIST100_LINE{
+    text-align          :left;
+    vertical-align      :middle;
+    background          :white;
+    border-width        :3px;
+    border-style        :ridge;
+    empty-cells         :show;
+}
+
+/* -----一覧部(100%9P)　スタイル-----  */
+table.list100_line_9, TABLE.LIST100_LINE_9{
+    width               :100%;
+    color               :black;
+    font-family: "ＭＳ ゴシック",sans-serif;
+/* font-size            :9pt; 20041117 font %指定のため削除 */
+    font-size           :80%; /* 20041117 font %指定のため追加 */
+    border-collapse     :collapse;
+}
+/* th及びtdは「一覧部(100%11P)　スタイル」と同じものを使用する */
+
+/* -----下部ボタンエリア　スタイル-----  */
+table.bottom, TABLE.BOTTOM{
+    border-style        :none;
+    color               :black;
+    /* background           :white; 20040915 削除 以下2行追加 */
+    background-image:url(../image/btn-back.gif);
+    background-repeat: repeat;
+    font-family: "ＭＳ ゴシック",sans-serif;
+/* font-size            :11pt;  20041117 font %指定のため削除 */
+    font-size           :100%; /*20041117 font %指定追加 */
+    width               :100%;
+}
+/* -----下部ボタンエリア　スタイル(9P)20040831-----  */
+table.bottom_9, TABLE.BOTTOM_9{
+    border-style        :none;
+    color               :black;
+    background          :white;
+    font-family: "ＭＳ ゴシック",sans-serif;
+/* font-size            :9pt; 20041117 font %指定のため削除 */
+    font-size           :80%; /* 20041117 font %指定のため追加 */
+    width               :100%;
+}
+td.bottom_left, TD.bottom_left{
+    text-align          :left;
+    padding             :5px;
+}
+td.bottom_right, TD.bottom_right{
+    text-align          :right;
+    padding             :5px;
+}
+
+
+/* -----コントロール　スタイル-----  */
+/* --ボタン-- */
+.b{
+    height              :22px;
+    vertical-align      :middle;
+    font-size           :11pt;
+    font-family: "ＭＳ Ｐゴシック",sans-serif;
+}
+/* --ボタン(9P)20040831-- */
+.b_9{
+    height              :22px;
+    vertical-align      :middle;
+    font-size           :9pt;
+    font-family: "ＭＳ Ｐゴシック",sans-serif;
+}
+/* --ボタン196px-- */
+.b196{
+    height              :22px;
+    vertical-align      :middle;
+    width               :196px;
+    font-size           :11pt;
+    font-family: "ＭＳ Ｐゴシック",sans-serif;
+}
+/* --ボタン196px(9P)20040831-- */
+.b196_9{
+    height              :18px;
+    vertical-align      :middle;
+    width               :196px;
+    font-size           :9pt;
+    font-family: "ＭＳ Ｐゴシック",sans-serif;
+}
+/* --ボタン100px-- */
+.b100{
+    height              :22px;
+    vertical-align      :middle;
+    width               :100px;
+    font-size           :11pt;
+    font-family: "ＭＳ Ｐゴシック",sans-serif;
+}
+/* --ボタン100px(9P)20040831-- */
+.b100_9{
+    height              :18px;
+    vertical-align      :middle;
+    width               :100px;
+    font-size           :9pt;
+    font-family: "ＭＳ Ｐゴシック",sans-serif;
+}
+/* --ボタン57px-- */
+.b57{
+    height              :22px;
+    vertical-align      :middle;
+    width               :57px;
+    font-size           :11pt;
+    font-family: "ＭＳ Ｐゴシック",sans-serif;
+}
+/* -- ボタン(9P)20040831-- */
+.b57_9{
+    height              :18px;
+    vertical-align      :middle;
+    width               :57px;
+    font-size           :9pt;
+    font-family: "ＭＳ Ｐゴシック",sans-serif;
+}
+
+/* --テキストボックス-- */
+.t{
+    vertical-align      :middle;
+    font-family: "ＭＳ ゴシック",sans-serif;
+    font-size           :11pt;
+}
+/* --テキストボックス(9P)20040831-- */
+.t_9{
+    vertical-align      :middle;
+    font-family: "ＭＳ ゴシック",sans-serif;
+    font-size           :9pt;
+}
+/* --プルダウン-- */
+.s{
+    vertical-align      :middle;
+    font-family: "ＭＳ ゴシック",sans-serif;
+    font-size           :11pt;
+}
+/* --プルダウン(9P)20040831-- */
+.s_9{
+    vertical-align      :middle;
+    font-family: "ＭＳ ゴシック",sans-serif;
+    font-size           :9pt;
+}
+
+
+
+/* CSA-BKG-0085 */
+/* 若林追加　20050113 通常*/
+td.list100_ffffcc, TD.LIST100_FFFFCC{
+    text-align          :center;
+    vertical-align      :middle;
+    background          :white;
+    border-width        :3px;
+    border-style        :ridge;
+    empty-cells         :show;
+  background:#FFFFCC;
+}
+
+td.list100_ffffcc_l, TD.LIST100_FFFFCC_L{
+    text-align          :left;
+    vertical-align      :middle;
+    background          :white;
+    border-width        :3px;
+    border-style        :ridge;
+    empty-cells         :show;
+  background:#FFFFCC;
+}
+
+td.list100_ffffcc_r, TD.LIST100_FFFFCC_R{
+    text-align          :right;
+    vertical-align      :middle;
+    background          :white;
+    border-width        :3px;
+    border-style        :ridge;
+    empty-cells         :show;
+  background:#FFFFCC;
+}
+
+td.list100_75a9ff, TD.LIST100_75A9FF{
+    text-align          :center;
+    vertical-align      :middle;
+    background          :white;
+    border-width        :3px;
+    border-style        :ridge;
+    empty-cells         :show;
+  background:#75A9FF;
+}
+
+td.list100_75a9ff_l, TD.LIST100_75A9FF_L{
+    text-align          :left;
+    vertical-align      :middle;
+    background          :white;
+    border-width        :3px;
+    border-style        :ridge;
+    empty-cells         :show;
+  background:#75A9FF;
+}
+
+td.list100_c2d7f1, TD.LIST100_C2D7F1{
+    text-align          :left;
+    vertical-align      :middle;
+    background          :white;
+    border-width        :3px;
+    border-style        :ridge;
+    empty-cells         :show;
+    background:#c2d7f1;
+}
+
+
+
+
+/* CKGGV005 配当金一覧
+選択ボタンの部分　borderなし他指定 */
+td.list100_linehead, TD.LIST100_LINEHEAD{
+    text-align          :center;
+    vertical-align      :middle;
+    background          :white;
+    border-width        :3px;
+    border-style        :ridge;
+    empty-cells         :show;
+  width:7%;
+  border-style:none;
+  background:#FFFFCC;
+}
+
+
+/*転換請求同時買取情報 の買取有無のフォームのみ */
+td.list100_cccccc, TD.LIST100_CCCCCC{
+    text-align          :center;
+    vertical-align      :middle;
+    background          :white;
+    border-width        :3px;
+    border-style        :ridge;
+    empty-cells         :show;
+  background:#CCCCCC;
+}
+
+
+
+
+font.font9,FONT.FONT9{
+  font-size:9pt;
+}
+
+/*コメントのみ　現在使われていない*/
+font.font9_ms,FONT.FONT9_MS{
+  font-family:ＭＳ ゴシック;
+  font-size:9pt;
+}
+
+
+/*CKGGV001 流れるメッセージ部分*/
+marquee.marquee_1,MARQUEE.MARQUEE_1{
+font-size:10pt;
+color:red; 
+}
+
+
+td.entry_detail_white,TD.ENTRY_DETAIL_WHITE{
+    text-align          :left;
+    background          :white;
+    padding             :3px;
+}
+
+
+
+td.entry_title_white, TD.ENTRY_TITLE_WHITE{
+    text-align          :left;
+    background          :white;
+    padding             :3px;
+}
