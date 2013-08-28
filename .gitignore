@@ -2,6 +2,7 @@
 application/config/environment.php
 application/config/local.php
 application/config/database.php
+application/logs/*
 /optimus.komodoproject
 /fork.komodoproject
 *.komoodo*
