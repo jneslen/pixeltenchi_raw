@@ -13,8 +13,8 @@ return array
 (
 	'namespaces' => array
 	(
-		'Tenchi' => APPPATH.'classes/',
-		'Kacela' => MODPATH.'kacela/classes/kacela/'
+		'Tenchi' => APPPATH.'classes/Tenchi/',
+		'Kacela' => MODPATH.'kacela/classes/Kacela/'
 	),
 	'datasources' => array
 	(
