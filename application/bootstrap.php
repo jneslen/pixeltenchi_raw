@@ -76,7 +76,7 @@ if(\Helper::language() == 'jp')
 }
 else
 {
-	date_default_timezone_set('US/Mountain');
+	date_default_timezone_set('America/Denver');
 }
 
 /**
